@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/HttpPatchWithAutoMapper/bin/Debug/net8.0
+/HttpPatchWithAutoMapper/obj
+/HttpPatchWithAutoMapper/.vs/HttpPatchWithAutoMapper
+/HttpPatchWithAutoMapper/bin/Release/net8.0
