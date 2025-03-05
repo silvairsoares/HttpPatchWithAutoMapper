@@ -6,10 +6,10 @@ Projeto de exemplo para o artigo:
 sequenceDiagram
     Cliente->>Controller: PATCH /api/pessoas/AutoMapper/{id}
     Controller->>Servico: UpdateAutoMapper(pessoa)
-    Note right of Servico: Configura AutoMapper\npara mapeamento condicional
+    Note right of Servico: Configura AutoMapper para mapeamento condicional
     Servico->>Banco: BuscarPessoaPorId(id)
     Banco-->>Servico: pessoaExistente
-    Note right of Servico: Aplica mapeamento\nsomente para propriedades\nnão nulas
+    Note right of Servico: Aplica mapeamento somente para propriedades não nulas
     Servico->>Banco: SalvarAlteracoes()
     Banco-->>Servico: Sucesso
     Servico-->>Controller: pessoaAtualizada
